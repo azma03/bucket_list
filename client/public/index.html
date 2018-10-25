@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bucket List</title>
+    <script src="/js/bundle.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <h1>Bucket List</h1>
+    <div>
+      <h2>Add an Adventure</h2>
+      <form id="bucketlistForm">
+        <div>
+          <label for="adventure">Adventure:</label>
+          <input type="text" id="adventure">
+        <div>
+          <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location"/>
+          </div>
+          <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date"/>
+          </div>
+          <div>
+            <label for="notes">Notes:</label>
+            <input type="text" id="notes"/>
+          </div>
+          <!-- <div>
+            <label for="status">Status:</label>
+            <select name="status" id="status">
+              <option value="Pending">Pending</option>
+              <option value="In-progess">In-progess</option>
+              <option value="Done">Done</option>
+            </select>
+          </div> -->
+          <input type="submit" value="Save" id="save"/>
+      </form>
+  </div>
+    <div>
+      <h2>Bucket List</h2>
+      <div id="bucketlist"></div>
+    </div>
+  </body>
+</html>
